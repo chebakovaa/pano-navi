@@ -1,0 +1,38 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 6px;
+  height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+.menu {
+  background-color: cadetblue;
+}
+
+.pn_menu {
+  height: 30px;
+  margin-bottom: 5px;
+  align-content: flex-start;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto 0px;
+}
+
+.pn_body {
+  background-color: lightgrey;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
